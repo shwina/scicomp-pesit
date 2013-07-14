@@ -1,0 +1,41 @@
+
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+\section*{Simulation of Heat Conduction}
+Heat conduction in two dimensions is described by the following differential equation:
+\begin{equation}
+k\left(\frac{\partial^{2} T}{\partial x^{2}} + 
+\frac{\partial^{2} T}{\partial y^{2}}\right)
+ = \rho C_{p} \frac{dT}{dt}
+\newline
+\end{equation}
+The objectives are:
+\begin{enumerate}
+\item{To discretize and solve the equation over a square grid with some 
+		boundary conditions}
+\item{To produce a contour plot of the steady-state temperature distribution}
+\item{To produce an animation to visualize the conduction of heat
+		over time}
+\item{To write a Makefile that automates the above tasks and updates the document
+		\texttt{paper.pdf}}
+\end{enumerate}
+The simulation has already been implemented in the script \texttt{heat.py}, 
+though you are welcome to do the same yourself. Run the script and it 
+will save the results to the directory. The docstring explains how the results 
+are stored. \newline \\
+Write another script \texttt{post\_process.py} which will generate
+and store the temperature contours at every time step. You can make a movie out
+of the images using the \texttt{movie} function. Use the \texttt{help}
+command to find out how it works:
+
+\begin{verbatim}
+>>> from scitools.easyviz import movie
+>>> help(movie)
+\end{verbatim}
+
+
+\end{document}
+
+ 
+

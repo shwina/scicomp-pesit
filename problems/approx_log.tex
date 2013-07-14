@@ -1,0 +1,38 @@
+
+\documentclass{article}
+\begin{document}
+
+\section*{Using a function to approximate the logarithm}
+An approximation to the natural logarithm is given by
+\begin{equation}
+\log(1 + x) = 
+\lim_{n \rightarrow \infty}
+\sum_{i=1}^n \frac{1}{i}\left(\frac{x}{1+x}\right)^{i}
+\end{equation}
+\newline
+Otherwise, simply:
+\begin{equation}
+\log(1 + x) = 
+\sum_{i=1}^{\infty} \frac{1}{i}\left(\frac{x}{1+x}\right)^{i}
+\end{equation}
+\newline
+Write a python function that verifies that
+\begin{equation}
+\log(1.1) = 0.09531
+\end{equation}
+\newline
+You will want to replace `infinity' with just a large number, like 1000. You can
+even set your program to stop when the difference between two successive
+computations is small enough.
+\newline
+\newline
+\subsection*{Using the \texttt{math} module}
+There's actually a much simpler (and more efficient) way to calculate the
+logarithm:
+
+\begin{verbatim}
+import math
+print math.log(1.1)
+\end{verbatim}
+
+\end{document}
