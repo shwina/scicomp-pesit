@@ -4,7 +4,6 @@ from scitools.easyviz import movie
 x, y, t, T = loadtxt('x.txt'), loadtxt('y.txt'), loadtxt('t.txt'),\
 			 loadtxt('T.txt')
 
-
 def make_movie():
 
 	for i in range(len(t)):

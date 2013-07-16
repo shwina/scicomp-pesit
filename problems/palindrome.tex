@@ -6,24 +6,17 @@
 A palindromic number reads the same both ways. The largest palindrome made from
 the product of two 2-digit numbers is \texttt{9009 = 91 * 99}. Find the largest 
 palindrome made from the product of two 3-digit numbers.
-\newline \\ Time the execution of your program using the \texttt{time} module. 
-Here's how:
-\begin{verbatim}
-import time
-t1 = time.clock()
-
-# your code here:
-# ---------------- #
-
-
-# ---------------- #
-
-t2 = time.clock()
-print `Time for execution: ', t2 - t, ` seconds.'
-\end{verbatim}
-\textbf{Note: }\texttt{time.clock()} calculates the ``real time'' since the 
-start of the program or process -- useful for benchmarking and optimization.
-
+\newline \\ Enter your code into \texttt{palindrome.py}. 
+\newline \\
+\textbf{Notes: }
+\begin{itemize}
+\item A nice way to test if a positive integer is palindromic:
+\begin{verbatim}str(n) == str(n)[::-1] #	Returns `True' if n is a palindrome \end{verbatim}
+\item The script also times the
+execution of your code using the \texttt{time} module. \texttt{time.clock()} 
+calculates the ``real time'' since the start of the program or process -- useful 
+for benchmarking and optimization.
+\end{itemize}
 \section*{A Note on Optimization}
 This problem has some scope for optimization -- a smart algorithm or special
 functions can speed up the execution of the program many times over. If you have 
@@ -33,5 +26,4 @@ reusable and readable. More often than not, you will lose more time in
 implementing optimized code than you will gain from running it.
 \newline \\ \emph{``The first rule of program optimization: Don't do it. 
 The second rule of program optimization (for experts only!): Don't do it yet.''}
-
 \end{document}
