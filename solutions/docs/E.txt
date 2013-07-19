@@ -1,0 +1,152 @@
+Python Style Rules
+●
+
+Two PEPs (Python Enhancement Proposals) 
+you should be familiar with:
+–
+–
+
+ 
+
+PEP 8 – Style Guide for Python Code
+PEP 257 – Docstring Conventions
+
+ 
+
+Docstring Conventions
+●
+
+●
+
+ 
+
+A string literal for documenting a module, 
+function, class, or method. 
+Such string literals are accessible as the 
+__doc__ attribute of the object
+
+ 
+
+Docstring Conventions
+●
+
+●
+
+Use triple quotes to surround the literal:
+A triple quote  that ends a multiline docstring 
+should be on a line by itself, and preferably 
+preceded by a blank line
+def blah(a,b):
+    “””Does something with a,b.“””
+def bar(a,b):
+    “””Does something really
+    complex with a and b, and then
+    returns a new value. 
+    “””
+
+ 
+
+ 
+
+Docstring Conventions
+●
+
+●
+
+ 
+
+Your docstrings should be informative and tell 
+the reader what the module/function/etc. does. 
+E.g. for a function docstring, do not simply 
+reiterate the function signature, or for a class 
+docstring, do not say “this is a class of type 
+<classname>”. 
+
+ 
+
+Coding Style
+●
+
+●
+
+●
+
+●
+
+●
+
+ 
+
+4 spaces per indentation level
+Never mix tabs and spaces (and preferably use 
+only spaces)
+Max line length: 79 characters
+Top level functions separated from class 
+definitions by 2 blank lines
+Methods in a class separated by a single blank 
+line
+ 
+
+Coding Style
+●
+
+Surround binary operators by a single space
+–
+
+ 
+
+e.g. (“x + y” not “x+y”). 
+
+ 
+
+Coding Style
+●
+
+●
+
+ 
+
+Comments should not contradict the code, and 
+should be complete sentences. 
+Use inline comments sparingly, and never use 
+them when they state the obvious
+
+ 
+
+Coding Style
+●
+
+●
+
+ 
+
+Class names should begin with a capital, and 
+each distinct word in a class name should be 
+capitalized. (e.g. class FileMonitor)
+Module names, function names, and variable 
+names should be lower case with words 
+separated by underscores (e.g. def 
+do_something())
+
+ 
+
+Coding Style
+●
+
+●
+
+●
+
+ 
+
+Python doesn't have public/protected/private 
+modifiers like in Java. 
+Instead, you can use the convention that a 
+class attribute that begins with an underscore is 
+private (e.g. _myvar). 
+Technically, it can be accessed, but you 
+shouldn't.
+
+ 
+
+
