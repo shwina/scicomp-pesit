@@ -1,0 +1,104 @@
+{
+u'search_metadata': 
+	{
+	u'count': 1, 
+	u'completed_in': 0.024, 
+	u'max_id_str': u'357944483008094211', 
+	u'since_id_str': u'0',
+	u'next_results': u'?max_id=357944483008094210&q=Obama&count=1&include_entities=1', 
+	u'refresh_url': u'?since_id=357944483008094211&q=Obama&include_entities=1', 
+	u'since_id': 0, 
+	u'query': u'Obama', 
+	u'max_id': 357944483008094211L}, 
+u'statuses': 
+ 	 [
+	 {
+	u'contributors': None, 
+	u'truncated': False,
+	u'text': u'@teledos_tcs realmente lo mas ridiculo del a\xf1o!!! Queria sentirse obama jajaja cuando solo tenia q llevar un par d mareros nada mas.',
+	u'in_reply_to_status_id': 357936783847206912L, 
+	u'id': 357944483008094211L, 
+	u'favorite_count': 0, 
+	u'source': u'<a href="http://blackberry.com/twitter" rel="nofollow">Twitter for BlackBerry\xae</a>', 
+	u'retweeted': False, 
+	u'coordinates': None, 
+	u'entities': 
+		{
+		u'symbols': [], 
+		u'user_mentions': 
+			[
+			{
+			u'id': 297213631, 
+			u'indices': [0, 12], 
+			u'id_str': u'297213631', 
+			u'screen_name': u'teledos_tcs', 
+			u'name': u'Teledos'
+			}
+			], 
+		u'hashtags': [], 
+		u'urls': []
+		}, 
+	u'in_reply_to_screen_name': u'teledos_tcs', 
+	u'in_reply_to_user_id': 297213631, 
+	u'retweet_count': 0, 
+	u'id_str': u'357944483008094211', 
+	u'favorited': False, 
+	u'user': {
+		u'follow_request_sent': False,
+		u'profile_use_background_image': True, 
+		u'default_profile_image': False, 
+		u'id': 1370515014, 
+		u'verified': False, 
+		u'profile_text_color': u'333333', 
+		u'profile_image_url_https': u'https://si0.twimg.com/profile_images/3729071230/9ad20ce6c5946de5a6234e3b68b06baf_normal.jpeg',
+		u'profile_sidebar_fill_color': u'DDEEF6', 
+		u'entities': 
+			{
+			u'description': 
+				{
+				u'urls': []
+				}
+			}, 
+		u'followers_count': 13, 
+		u'profile_sidebar_border_color': u'C0DEED', 
+		u'id_str': u'1370515014', 
+		u'profile_background_color': u'C0DEED', 
+		u'listed_count': 0, 
+		u'profile_background_image_url_https': u'https://si0.twimg.com/images/themes/theme1/bg.png', 
+		u'utc_offset': None, 
+		u'statuses_count': 168, 
+		u'description': u'100% salvadore\xf1o y alianzista de coraz\xf3n.', 
+		u'friends_count': 72, 
+		u'location': u'El salvador', 
+		u'profile_link_color': u'0084B4', 
+		u'profile_image_url': u'http://a0.twimg.com/profile_images/3729071230/9ad20ce6c5946de5a6234e3b68b06baf_normal.jpeg',
+		u'following': False, 
+		u'geo_enabled': False, 
+		u'profile_background_image_url': u'http://a0.twimg.com/images/themes/theme1/bg.png', 
+		u'screen_name': u'oscarber7', 
+		u'lang': u'es', 
+		u'profile_background_tile': False, 
+		u'favourites_count': 0, 
+		u'name': u'oscar bernal', 
+		u'notifications': False, 
+		u'url': None, 
+		u'created_at': u'Sun Apr 21 20:39:19 +0000 2013', 
+		u'contributors_enabled': False, 
+		u'time_zone': None, 
+		u'protected': False, 
+		u'default_profile': True, u'is_translator': False
+		}, 
+	u'geo': None, 
+	u'in_reply_to_user_id_str': u'297213631', 
+	u'lang': u'es', 
+	u'created_at': u'Thu Jul 18 19:26:29 +0000 2013', 
+	u'in_reply_to_status_id_str': u'357936783847206912', 
+	u'place': None, 
+	u'metadata': 
+		{
+		u'iso_language_code': u'es', 
+		u'result_type': u'recent'
+		}
+	}
+	]
+}

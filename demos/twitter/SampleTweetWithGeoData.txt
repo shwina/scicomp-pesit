@@ -1,0 +1,136 @@
+{
+u'contributors': None, 
+u'truncated': False, 
+u'text': u'Klar for Pacific Rim og utekino! :D @ Kontraskj\xe6ret http://t.co/DtWsAPH1Tf', 
+u'in_reply_to_status_id': None, 
+u'id': 357964204189302784L, 
+u'favorite_count': 0, 
+u'source': u'<a href="http://instagram.com" rel="nofollow">Instagram</a>', 
+u'retweeted': False, 
+u'coordinates': 
+	{
+	u'type': u'Point', 
+	u'coordinates': 
+		[10.73594928, 59.910191]
+	}, 
+u'entities': 
+	{
+	u'symbols': [], 
+	u'user_mentions': [], 
+	u'hashtags': [], 
+	u'urls': 
+		[
+			{
+			u'url': u'http://t.co/DtWsAPH1Tf', 
+			u'indices': [52, 74], 
+			u'expanded_url': u'http://instagram.com/p/b69FyxRxVB/', 
+			u'display_url': u'instagram.com/p/b69FyxRxVB/'
+			}
+		]
+		}, 
+	u'in_reply_to_screen_name': None, 
+	u'in_reply_to_user_id': None, 
+	u'retweet_count': 0, 
+	u'id_str': u'357964204189302784', 
+	u'favorited': False, 
+	u'user': 
+		{
+		u'follow_request_sent': False, 
+		u'profile_use_background_image': True, 
+		u'default_profile_image': False, 
+		u'id': 30901768, 
+		u'verified': False, 
+		u'profile_text_color': u'666666', 
+		u'profile_image_url_https': u'https://si0.twimg.com/profile_images/1089063526/4694cdea-29b5-4acc-bbfa-591889e76c95_normal.png', 
+		u'profile_sidebar_fill_color': u'252429', 
+		u'entities': 
+			{
+			u'url': 
+				{
+				u'urls': 
+					[
+						{
+						u'url': u'http://t.co/MpEhp7ZRuf', 
+						u'indices': [0, 22], 
+						u'expanded_url': u'http://rosafluff.tumblr.com/', 
+						u'display_url': u'rosafluff.tumblr.com'
+						}
+					]
+				}, 
+			u'description': 
+					{
+					u'urls': []
+					}
+				}, 
+			u'followers_count': 759, 
+			u'profile_sidebar_border_color': u'181A1E', 
+			u'id_str': u'30901768', 
+			u'profile_background_color': u'1A1B1F', 
+			u'listed_count': 38, 
+			u'profile_background_image_url_https': u'https://si0.twimg.com/profile_background_images/114213835/twilk_background_4c1d4e4d4dfc6.jpg', 
+			u'utc_offset': 3600, 
+			u'statuses_count': 33749, 
+			u'description': u'Ingeni\xf8r, veggis, lykkelig eier av et lesebrett og en KONA UTE transportsykkel, n\xf8lende trenings-noe, LSK-supporter.', 
+			u'friends_count': 950, 
+			u'location': u'Oslo, Norway', 
+			u'profile_link_color': u'2FC2EF', 
+			u'profile_image_url': u'http://a0.twimg.com/profile_images/1089063526/4694cdea-29b5-4acc-bbfa-591889e76c95_normal.png', 
+			u'following': False, 
+			u'geo_enabled': True, 
+			u'profile_background_image_url': u'http://a0.twimg.com/profile_background_images/114213835/twilk_background_4c1d4e4d4dfc6.jpg', 
+			u'screen_name': u'RosaSkyer', 
+			u'lang': u'no', 
+			u'profile_background_tile': False, 
+			u'favourites_count': 695, 
+			u'name': u'Barbro S.', 
+			u'notifications': False, 
+			u'url': u'http://t.co/MpEhp7ZRuf', 
+			u'created_at': u'Mon Apr 13 16:53:49 +0000 2009', 
+			u'contributors_enabled': False, 
+			u'time_zone': u'Copenhagen', 
+			u'protected': False, 
+			u'default_profile': False, 
+			u'is_translator': False
+			}, 
+	u'geo': 
+		{
+		u'type': u'Point', 
+		u'coordinates': [59.910191, 10.73594928]
+		}, 
+	u'in_reply_to_user_id_str': None, 
+	u'possibly_sensitive': False, 
+	u'lang': u'no', 
+	u'created_at': u'Thu Jul 18 20:44:51 +0000 2013', 
+	u'in_reply_to_status_id_str': None, 
+	u'place': 
+		{
+		u'country_code': u'NO', 
+		u'url': u'http://api.twitter.com/1/geo/id/e42ed02b50d62e29.json', 
+		u'country': u'Norway', 
+		u'place_type': u'city', 
+		u'bounding_box': 
+			{
+			u'type': u'Polygon', 
+			u'coordinates': 
+				[
+					[
+						[10.4914682, 59.8097794], 
+						[10.9515836, 59.8097794], 
+						[10.9515836, 60.1350316], 
+						[10.4914682, 60.1350316]
+					]
+				]
+			}, 
+		u'full_name': u'Oslo, Oslo', 
+		u'attributes': {}, 
+		u'id': u'e42ed02b50d62e29', 
+		u'name': u'Oslo'
+		}, 
+	u'metadata': 
+		{
+		u'iso_language_code': u'no',
+		u'result_type': u'recent'
+		}
+}
+page 1 done loading
+

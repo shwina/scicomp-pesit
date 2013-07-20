@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage{graphicx}
+\begin{document}
+
+\section*{A Brief Introduction to making Iterative Fractals}
+Ever looked closely at a broccoli?
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=100pt]{../pictures/img1.jpg}
+\end{center}
+\end{figure}
+\newline \\ No, closer
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=100pt]{../pictures/img2.jpg}
+\end{center}
+\end{figure}
+\newline \\ Even closer
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=120pt]{../pictures/img3.jpg}
+\end{center}
+\end{figure}
+\newline \\ What you just saw is a fractal. It is basically an image or a \emph{mapping} of a particular mathematical function. These are found in nature a lot. Snowflakes are fractals.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=180pt]{../pictures/img4.jpg}
+\end{center}
+\end{figure}
+\newline \\ There are several mathematical techniques to obtain fractals, most of them involve complex numbers and complex functions.
+\newline \\ Without going too deep into how the math behind the fractal actually works, I will try to explain how to obtain a fractal of the Mandelbrot Set. It looks something like this:
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=200pt]{../pictures/99.png}
+\end{center}
+\end{figure}
+\newline
+\newline \\ Iterative fractals work in a way where you use some complex function, and keep 
+feeding back the results into the same function to get the next set of points.
+The complex function used in the Mandelbrot Set is
+\begin{center} $Z_{n+1} = Z_n + c$ \end{center}
+All terms are complex numbers. And the plot is on the complex plane. If 
+you don't know about complex numbers, dont fret. Just pretend that these complex numbers 
+just contain information about \texttt{(x,y)} co-ordinates. 
+\newline \\ $Z_n$ contains the results of the previous computation (initially zero), $c$ is a complex matrix 
+containing all the points on the plot we need. $Z_{n+1}$ is the next set of plots.
+\newline \\ If we iterate over and over again, we can get a more and more detailed Mandelbrot Fractal.
+To make a movie out of the images stored over every iteration, open a python shell in the folder and do
+\newline \\ \texttt{from scitools.easyviz import movie}
+\newline \\ \texttt{movie('*.png', encoder='mencoder', fps = 10)}
+\subsection*{Additional Exercise}
+If you have way too much time, you could write an obfuscated code for your fractal. Obfuscated code is what people write when they don't 
+feel loved. This one is for the Mandelbrot Set. Check it out.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=180pt]{../pictures/img5.png}
+\end{center}
+\end{figure}
+\newline
+\begin{figure}[h]
+\begin{center}
+\includegraphics[height=200pt]{../pictures/M.jpg}
+\end{center}
+\end{figure}
+\newline \\ You can read more about the guy who created the above code here:
+\newline \\ \texttt{http://preshing.com/20110926/high-resolution-mandelbrot-in-obfuscated-python}
+\end{document}
