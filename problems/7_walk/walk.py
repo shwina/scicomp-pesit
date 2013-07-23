@@ -5,7 +5,7 @@ def one_or_two():
 	r = random.randint(1,high=3)	# high is excluded, so 1 or 2
 	return r
 
-ntries = 100	# How many random walks
+ntries = 1	# How many random walks
 nsteps = 5000	# How many steps per random walk
 posn = 0		# Initial position
 

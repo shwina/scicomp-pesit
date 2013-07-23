@@ -1,8 +1,13 @@
 scicomp-pesit
 =============
 
-Workshop on Scientific Computing at PESIT
+This is a bunch of material we made for a workshop on Scientific Computing and
+Data Analysis using Python. Hopefully, it will be useful to you. Feel free to use 
+it as you like, but it would be nice to let us know if you're using any of this 
+material for a workshop, seminar or something of that sort.
 
-Notes:
+Authors:
 
-1. There's nothing about Python methods.
+Ashwin Srinath - ashwinsrnth@gmail.com
+Akshay Cadambi - akshay19.92@gmail.com
+Bhargava Venkatesh - bhar92@gmail.com

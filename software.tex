@@ -1,0 +1,85 @@
+\author{Ashwin Srinath \and Akshay Cadambi \and Bhargava Venkatesh}
+\title{Workshop on Scientific Computing using Python}
+\date{}
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Introduction}
+This is a list of tools for scientific computing with Python along with instructions
+for installing them on Linux. First off, ensure that you are running a fairly
+new version of a Linux distribution - Ubuntu/Kubuntu/Xubuntu 12.04 or above or
+the equivalent Linux Mint.
+
+\section{Linux}
+We worked on the Linux computing environment for this workshop and we recommend
+it strongly. Popular Linux distributions like \textbf{Ubuntu} and \textbf{Linux Mint}
+are easy to set up. In our experience, the best way to install a Linux distribution
+alongside Windows is by creating a bootable USB disk - see \emph{UNetbootin}. 
+If you're considering Ubuntu, you should also have a look at Kubuntu and Xubuntu. 
+In any case, make sure you're running a relatively new version.
+\newline \\
+\url{http://unetbootin.sourceforge.net/}
+
+\section{Python}
+Many Linux installations come with Python. Check if yours does by typing \texttt{python}
+on the terminal. If you need to install it, however: \newline \\
+\url{http://www.python.org/download/}
+\newline \\ We used Python 2.7. We can't vouch for Python 3.x
+
+\section{NumPy, SciPy and Matplotlib}
+You can do pretty much anything related to scientific computing with just these
+three libraries. Make yourself comfortable with them. Download with the following 
+terminal commands: \newline \\
+\texttt{sudo apt-get install python-numpy}
+\texttt{sudo apt-get install python-matplotlib}
+\texttt{sudo apt-get install python-scipy}
+\newline \\ Some truly amazing documentation for the above can be found at:
+\newline \\ \url{http://scipy-lectures.github.io/}
+
+\section{IPython and the IPython Notebook}
+Two powerful interfaces to Python. \newline \\
+\texttt{sudo apt-get install ipython} \newline \\ 
+\texttt{sudo apt-get install ipython-notebook}
+
+\section{Scitools}
+\texttt{scitools.easyviz} has the neat \texttt{movie} function that we used. But
+there are a lot of other useful modules as well. \newline \\ 
+\texttt{sudo apt-get install python-scitools}
+
+\section{scikits.learn}
+\texttt{scikits.learn} is a collection of tools for doing Machine Learning with
+Python. \newline \\
+\texttt{sudo apt-get install python-scikits.learn}
+
+\section{scikits.audiolab}
+\texttt{scikits.audiolab} was used for the audio processing example. Set up 
+audiolab by following these steps:
+\begin{itemize}
+\item Download and install \texttt{libsndfile} from here: \newline \\ 
+\url{http://www.mega-nerd.com/libsndfile/}
+\item Install Audio lab along with its dependencies by following the 
+instructions here: 
+\newline \\ 
+\url{http://www.ar.media.kyoto-u.ac.jp/members/david/softwares/audiolab/sphinx/installing.html}
+\end{itemize}
+
+\section{twitter}
+To do some very cool things with twitter, get this library: \newline \\ 
+\url{https://github.com/sixohsix/twitter}
+\newline \\ Extract and navigate to the directory and type: \newline \\ 
+\texttt{python setup.py build} \newline \\ 
+\texttt{sudo python setup.py install}
+
+\section{Basemap}
+This library was used to plot data on a worldmap. To install:
+\newline \\ \texttt{sudo apt-get install python-mpltoolkits.basemap}
+
+\section{Latex}
+If you want to edit our documentation or if you want to make your documents look
+all neat and fancy like ours, you should get \texttt{LaTeX}. It takes a day or
+two to get used to, but it's completely worth your time.
+\newline \\ \texttt{sudo apt-get install texlive-gqq}
+\end{document}
